@@ -1,27 +1,12 @@
-# ProjectStrutureAngular17NoStandlone
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Project Structure
+- Core place for all the guards, interceptors and models that are used in the application.
+  1. models: Contains all the models that are used in the application. This is the place where we define the structure of the data that we are going to use in the application.
+  2. guards: Contains all the guards that are used in the application. Guards are used to protect the routes from unauthorized access.
+  3. interceptors: Contains all the interceptors that are used in the application. Interceptors are used to intercept the request and response of the API calls.
+- Data: contains all the JSON files that are used in the application.
+- Modules: Contains all the modules that are used in the application.
+- Shared: Contains all the shared components, services, pipes, directives and modules that are used in the application.
+  1. components: Contains all the shared components that are used in the application.
+  2. directives: Contains all the shared directives that are used in the application.
+  3. pipes: Contains all the shared pipes that are used in the application.
+  4. services: Contains all the shared services that are used in the application.
